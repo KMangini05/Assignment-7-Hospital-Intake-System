@@ -1,0 +1,19 @@
+1. Why is a tree appropriate for the doctor structure?
+The tree structure is appropriate for modeling the doctor structure because it represents the status each doctor has.
+This stucture also helps with the insertion of new doctors to the node because it maintains the hierarchy stucture that has already been set in place.
+The tree structure also makes it easier to see the reporting chain, which helps people understand the roles and responsibilities of each doctor and their practice.
+
+2. When might a software engineer use preorder, inorder, or postorder traversals?
+Software engineers won't necessarily use these traversals for the same issue, it will most likely be for different reasons, here are some examples.
+Preorder: This traversal would be useful to a software engineer when an operations needs to occure on a node before going to its children.
+This can include things such as a hierarchial report, the copying of a tree, or the serializing of a tree.
+Inorder: This traversal would be used for binary trees, specifically when nodes need to be sorted in order.
+This can include things such as displaying sorted lists and searching/analyzing data.
+Postorder: This traversal would be used when the child nodes need to be processed before the parent.
+This can include things such as deleting a tree or freeing memory, computing values from bottom/lowest to top/greatest, and can help evaluate expressions within trees.
+
+3. How do heaps help simulate real-time systems like emergency intake?
+Heaps help simulate real-time systems like emergency intakes because theu efficiently manage priorities.
+When it comes to emergency intake, patients need to be traded based off of urgency rather than arrival time.
+Heaps help make sure that the patient with the highest priority is at the root while putting the one with the least below them.
+This will then help ensure that the system is continuously processing incoming partients, in real-time, while respecting the priority level.
